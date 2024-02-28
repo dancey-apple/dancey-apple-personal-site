@@ -1,0 +1,19 @@
+html{
+    background-color: #511B3D;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px white;
+    background-color: #007F85;
+}
+
+h2{
+    color: #F87525;
+}
