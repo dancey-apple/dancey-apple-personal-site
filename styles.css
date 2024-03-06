@@ -1,19 +1,63 @@
+/*Colors: Purple: #511B3D, Blue: #007F85, Orange: #F87525*/
+
+
 html{
-    background-color: #511B3D;
-    font-family: sans-serif;
+
+    font-family: Nova Square;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-.container{
+nav{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: solid 4px white;
-    background-color: #007F85;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #511B3D;    
 }
 
-h2{
-    color: #F87525;
+li{
+    list-style-type: none;
+    font-size: 3em;
+}
+
+.navBar{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 0 0 10px 0;
+    background-color: #007F85;
+    border: solid 4px white;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;    
+}
+
+li a:hover {
+    color: #f87525;
+    text-decoration: none;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+main{
+    margin-top: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #511b51;
+    border: solid 4px white;
+    color: white
 }
