@@ -21,7 +21,7 @@ html{
     backdrop-filter: brightness(0.3 );
     border-radius: 25px;
     border:solid 2px #f87525;
-    margin-top: 50px;
+    margin: 50px 0 50px 0;
 }
 
 nav{
@@ -65,12 +65,12 @@ li a:hover {
     -webkit-text-stroke-color: black;
 }
 
-h1 a {
+a {
     color: white;
     text-decoration: none;
 }
 
-h1 a:hover {
+a:hover {
     color: #f87525;
     text-decoration: none;
 }
@@ -114,7 +114,7 @@ main{
 }
 
 #about_text{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .about_text_container p {
@@ -131,6 +131,20 @@ main{
     width: 90%;
 }
 
+#tools{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.tools{
+    margin: 20px 10px;
+}
+
+
 footer{
     display: flex;
     justify-content: center;
@@ -140,5 +154,5 @@ footer{
     right: 0;
     background-color: #511b51;
     border: solid 1px white;
-    color: white
+    color: white;
 }
