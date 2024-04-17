@@ -31,7 +31,7 @@ nav{
     top: 0;
     left: 0;
     right: 0;
-    background-color: #511B3D; 
+    backdrop-filter: blur(5px); 
     text-decoration: none;
     text-transform: uppercase;
     z-index: 9;  
@@ -47,22 +47,20 @@ li{
     justify-content: space-between;
     padding: 10px 10px;
     margin: 0 0 10px 0;
-    background-color: #007F85;
-    border: solid 4px white;
 }
 
 li a {
     color: white;
     text-decoration: none;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;    
+    -webkit-text-stroke-color: #551B3D;    
 }
 
 li a:hover {
     color: #f87525;
     text-decoration: none;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #551B3D;
 }
 
 a {
@@ -148,11 +146,21 @@ main{
 footer{
     display: flex;
     justify-content: center;
+    gap: 10px;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #511b51;
-    border: solid 1px white;
+    backdrop-filter: blur(10px);
     color: white;
+}
+
+footer p{
+    margin-top: 5px;
+    font-size: .75em;
+    text-align: center;
+}
+
+.contact_link{
+    margin-top: 5px;
 }
