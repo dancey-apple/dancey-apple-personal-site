@@ -154,6 +154,14 @@ main{
     gap: 20px;
     text-align: center;
     color: white;
+}
+
+#construction_icon{
+    margin-top: 30px;
+}
+
+.bottom_bumper{
+    width: 100%;
     margin-bottom: 100px;
 }
 

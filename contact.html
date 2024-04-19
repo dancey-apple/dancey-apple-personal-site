@@ -4,6 +4,7 @@
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Nova Square' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/b6dc0eca95.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="background"></div>
@@ -12,17 +13,34 @@
             <a href="index.html"><img src="images/ACOutRunAOD.jpg" alt="Personal Logo" class="logo" height=65></a>
             <li class="nav_button_start" id="title_text">D. Apple</li>
             <li class="nav_button" id="home_button_text"><a href="index.html">Home</a></li>
-            <li class="nav_button"><a href="contact.html">Contact</a></li>
+            <li class="nav_button"><a href="contact.html">Resume</a></li>
             <li class="nav_button_end"><a href="portfolio.html">Portfolio</a></li>
         </ul>
     </nav>
     <main>
-        <div class="card_wrapper">
+        <div class="card_wrapper about_text_container">
+            <div id="construction_icon">
+                <i class="fa-solid fa-screwdriver-wrench fa-2xl"></i>
+            </div>
             <h1>UNDER CONSTRUCTION</h1>
+        </div>
+        <div class="card_wrapper about_text_container">
+            <h3>My Resume Will Go Here</h3>
         </div>
     </main>
     <footer>
-        <p>&copy; 2019</p>
+        <div class="contact_link" id="email">
+            <a href="mailto:dancey.apple@proton.me"><img src='images/email-svgrepo-com.svg' alt="email" width=35 height=35></a>
+            <p>Email</p>
+        </div>
+        <div class="contact_link" id="linkedin">
+            <a href="https://www.linkedin.com/in/dancey-apple/"><img src="images/linkedin-1-svgrepo-com.svg" alt="linkedin" width=35 height=35></a>
+            <p>LinkedIn</p>
+        </div>
+        <div class="contact_link" id="github">
+            <a href='https://github.com/dancey-apple'><img src="images/github-color-svgrepo-com.svg" alt="github" width=35 height=35 id="github"></a>
+            <p>GitHub</p>
+        </div>
     </footer>
 </body>
 </html>
